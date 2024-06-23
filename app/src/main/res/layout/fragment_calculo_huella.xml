@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Calculando tu huella de plastico"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setshape"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="¿Cuantos envaces de bebida consume a la semana?"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_bolsa"
+        android:paddingHorizontal="14dp"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_minus1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_minus"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        <EditText
+            android:id="@+id/editTextNumber1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/setshape"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_plus1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_plus"
+            app:backgroundTint="@null"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setshape"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="¿Cuantos envaces de botellas consume a la semana?"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_bolsa"
+        android:paddingHorizontal="15dp"
+        android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_minus2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_minus"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/setshape"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_plus2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_plus"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setshape"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="¿Cuantos potes/envaces de comida consume a la semana?"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_bolsa"
+        android:paddingHorizontal="15dp"
+        android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_minus3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_minus"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/setshape"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_plus3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_plus"
+            app:backgroundTint="@null"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setshape"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="¿Cuantos potes/envaces de comida consume a la semana?"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_bolsa"
+        android:paddingHorizontal="15dp"
+        android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_minus4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_minus"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/setshape"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_plus4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_plus"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/setshape"
+        android:text="Calcular"
+        android:textColor="@color/black"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
